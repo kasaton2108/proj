@@ -1,0 +1,92 @@
+ody {
+  min-width: 320px;
+  font-size: 14px;
+  font-family: 'Playfair Display';
+  color: #626262;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+
+header .navbar-brand {
+  font-family: 'inconsolata';
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+header .nav-item {
+  text-transform: uppercase;
+  margin-left: 150px;
+}
+header .nav-item a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: aqua;
+  height: 2px;
+  transform: scale(0);
+  transition: all 0.6s;
+}
+header .nav-item a:hover::after {
+  transform: scale(1);
+}
+
+.p-name, .link {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-weight: 300;
+
+}
+
+.p-title {
+  color: #626262;
+}
+p {
+  line-height: 1.5rem;
+}
+.p-name, .p-title {
+  margin: 1rem 0;
+font-size: 30px ;
+}
+
+.h3 {
+  margin-top: 100px;
+}
+.post{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.post .card{
+  border: 0;
+  margin-bottom: 130px;
+}
+.post .card-body{
+  padding-left: 0;
+  padding-right: 0;
+}
+.post .card-img-top{
+  min-height: 350px;
+  background-size: contain;
+  border-radius: 0;
+}
+.load-more{
+  padding: 1rem 2rem;
+  border-color: #626262;
+}
+.load-more span{
+ display: none;
+}
+.signup {
+  background-color: #f0f0f0;
+  padding: 70px 0;
+}
